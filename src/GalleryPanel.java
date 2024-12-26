@@ -78,7 +78,7 @@ public class GalleryPanel extends JPanel {
         JTextArea descriptionArea = new JTextArea(description != null ? description : "No description available");
         descriptionArea.setLineWrap(true);
         descriptionArea.setWrapStyleWord(true);
-        descriptionArea.setFont(new Font("Century Gothic", Font.PLAIN, 16));
+        descriptionArea.setFont(new Font("Century Gothic", Font.BOLD, 14));
         descriptionArea.setForeground(Color.BLACK);
         descriptionArea.setOpaque(false);
         descriptionArea.setEditable(false);
